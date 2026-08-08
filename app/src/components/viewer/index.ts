@@ -1,0 +1,2 @@
+// Resium Viewer wrapper
+export {};
