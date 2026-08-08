@@ -29,3 +29,5 @@ export type {
   // Discriminated union
   DomainFeature,
 } from './types';
+
+export { getStatusAtTime } from './getStatusAtTime';
