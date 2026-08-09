@@ -6,6 +6,8 @@ import {
   ConstantProperty,
   ColorMaterialProperty,
   PolylineOutlineMaterialProperty,
+  HeightReference,
+  ClassificationType,
   type Viewer,
 } from 'cesium';
 import type { DomainFeature, GeoPoint, GeoLineString, GeoPolygon, GeoPosition } from '../../domain/models';
@@ -57,6 +59,9 @@ function createPointEntity(
       color: new ConstantProperty(cssColorToCesiumColor(style.fillColor, style.opacity)),
       outlineColor: new ConstantProperty(cssColorToCesiumColor(style.strokeColor)),
       outlineWidth: new ConstantProperty(style.strokeWidth),
+      // Drape onto terrain and 3D Tiles buildings — otherwise points render at
+      // the raw geometry altitude and can appear to float above dense urban terrain.
+      heightReference: new ConstantProperty(HeightReference.CLAMP_TO_GROUND),
     },
     description: new ConstantProperty(buildDescription(feature)),
   });
@@ -79,6 +84,9 @@ function createLineEntity(
         outlineColor: new ConstantProperty(cssColorToCesiumColor(style.strokeColor)),
         outlineWidth: new ConstantProperty(1),
       }),
+      // Drape the route onto terrain and buildings rather than the raw line altitude.
+      clampToGround: new ConstantProperty(true),
+      classificationType: new ConstantProperty(ClassificationType.BOTH),
     },
     description: new ConstantProperty(buildDescription(feature)),
   });
@@ -107,6 +115,10 @@ function createPolygonEntity(
       outline: new ConstantProperty(true),
       outlineColor: new ConstantProperty(cssColorToCesiumColor(style.strokeColor)),
       outlineWidth: new ConstantProperty(style.strokeWidth),
+      // No height/extrudedHeight set, so this renders as a GroundPrimitive —
+      // classificationType controls whether it drapes onto terrain only or
+      // also onto 3D Tiles buildings, which matters in dense urban blocks.
+      classificationType: new ConstantProperty(ClassificationType.BOTH),
     },
     description: new ConstantProperty(buildDescription(feature)),
   });

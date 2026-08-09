@@ -936,3 +936,58 @@ cd infra/cdk && pnpm test    # jest --run (CDK assertions)
 pnpm test:all
 ```
 
+
+
+## Design Addendum — Rendering, Performance, and Interoperability
+
+*Added based on technical review feedback.*
+
+### 1. Terrain Draping: clampToGround + classificationType
+
+**Problem:** Hazard polygons and route polylines rendered as flat entities float above or clip through terrain and 3D building geometry in dense urban environments. This is the core visual differentiator versus open-area demining tools — the entire pitch is "see contamination zones draped against real building geometry in Mosul, Raqqa, Kharkiv."
+
+**Solution (Phase 1 — implemented):**
+
+All polygon and polyline entities use:
+- `classificationType: ClassificationType.BOTH` — drapes geometry onto both terrain *and* 3D Tiles/OSM Buildings
+- `clampToGround: true` (polylines) — ensures route lines follow terrain surface
+
+This means a hazard polygon correctly wraps around building footprints when using Google Photorealistic 3D Tiles or OSM Buildings, rather than hovering as a flat plane at altitude 0.
+
+**Trade-off:** Classification entities use GroundPrimitive batching, which has slightly different pick behavior than standard entities. Feature selection still works via entity ID, but visual highlighting uses color change rather than silhouette post-processing.
+
+### 2. Performance at Scale: 3D Tiles Vector Tiling Path
+
+**Problem:** Phase 1 synthetic data is ~20-50 features (no performance concern). Production deployments may have 200+ hazard polygons, thousands of evidence points. Raw Entity API doesn't scale past ~500 dynamic entities at 30fps.
+
+**Phase 1 approach:** Entity API with `classificationType.BOTH` — sufficient for demonstration data volumes.
+
+**Phase 2 path (design hook, not implemented):**
+- Cesium ion's GeoJSON vector tiling converts large hazard datasets into streamable, queryable 3D Tiles
+- Upload GeoJSON → ion asset → consume as `Cesium3DTileset` with per-feature styling via `Cesium3DTileStyle`
+- Provides LOD (level-of-detail), view-frustum culling, and streaming out of the box
+- The adapter pattern already supports this: a `Cesium3DTilesAdapter` would sit alongside the current `CesiumAdapter` and consume the same `DomainFeature[]` for styling metadata while rendering via tileset rather than entities
+
+**No code change needed in Phase 1** — the architecture supports adding a parallel rendering path without breaking the existing pipeline.
+
+### 3. Sensitivity / Access Control — Phase 2 Honest Answer
+
+**Phase 1 reality:** Category B data gets a visual badge (icon overlay) and provenance metadata shows "Category B (Restricted)." There is no runtime access control — all data loaded into the client is visible to the user.
+
+**Phase 2 path (for when practitioners ask in Geneva):**
+- **Cesium ion Self-Hosted** — Category B/C content that cannot leave GICHD/partner infrastructure stays on-premise, served from a self-hosted ion instance behind organizational auth
+- **Token-scoped asset access** — ion access tokens can be scoped per asset; the ConfigManager already supports per-source tokens
+- **Server-side filtering** — ArcGIS Feature Service supports `where` clauses and layer-level permissions; the adapter already paginates via REST, so adding auth headers and permission-filtered queries is a configuration change
+- **Client-side enforcement is not security** — this is the correct position. The badge is a UX indicator, not an access control mechanism. Real access control happens at the data service layer.
+
+### 4. ArcGIS ↔ CesiumJS Bidirectional Interoperability
+
+**Pitch material for Innovation Session (not Phase 1 code):**
+
+- CesiumJS natively supports **I3S** (Indexed 3D Scene Layers) via `I3SDataProvider` — Esri's Scene Layer format consumed directly without conversion
+- ArcGIS Pro 3.2+ and the ArcGIS Maps SDK for JavaScript can consume **3D Tiles** (the Cesium-native format) back into ArcGIS workflows
+- This creates a bidirectional pipeline: ArcGIS Feature Services → Digital Twin viewer → 3D Tiles → back into ArcGIS Pro for analysis
+
+**Implication:** The pitch is "this is interoperable infrastructure, not a one-way migration away from Esri." Organizations can maintain ArcGIS as their GIS of record while the digital twin provides the 3D urban visualization layer. Data flows both directions.
+
+This is relevant when presenting to organizations (GICHD, national authorities) that have invested in ArcGIS Enterprise and need assurance that a CesiumJS-based demonstrator doesn't create vendor lock-in in the opposite direction.

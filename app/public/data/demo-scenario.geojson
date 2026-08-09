@@ -1,0 +1,414 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.465,
+              31.503
+            ],
+            [
+              34.467,
+              31.503
+            ],
+            [
+              34.467,
+              31.5045
+            ],
+            [
+              34.465,
+              31.5045
+            ],
+            [
+              34.465,
+              31.503
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "hazard-001",
+        "featureType": "hazard_area",
+        "status": "suspected",
+        "name": "Suspected hazard — northern block",
+        "responsibleOrganization": "Demo Survey Team",
+        "confidence": 0.6,
+        "isSynthetic": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.47,
+              31.5
+            ],
+            [
+              34.472,
+              31.5
+            ],
+            [
+              34.472,
+              31.5015
+            ],
+            [
+              34.47,
+              31.5015
+            ],
+            [
+              34.47,
+              31.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "hazard-002",
+        "featureType": "hazard_area",
+        "status": "confirmed",
+        "name": "Confirmed hazard — eastern block",
+        "responsibleOrganization": "Demo Clearance Org",
+        "confidence": 0.9,
+        "isSynthetic": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.463,
+              31.4985
+            ],
+            [
+              34.465,
+              31.4985
+            ],
+            [
+              34.465,
+              31.5
+            ],
+            [
+              34.463,
+              31.5
+            ],
+            [
+              34.463,
+              31.4985
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "hazard-003",
+        "featureType": "hazard_area",
+        "status": "cleared",
+        "name": "Cleared hazard — southwestern block",
+        "responsibleOrganization": "Demo Clearance Org",
+        "confidence": 1,
+        "isSynthetic": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.4609088,
+            31.4978316
+          ],
+          [
+            34.461442,
+            31.4981398
+          ],
+          [
+            34.4620428,
+            31.4985104
+          ],
+          [
+            34.462428,
+            31.4987434
+          ],
+          [
+            34.4626706,
+            31.4988931
+          ],
+          [
+            34.4627704,
+            31.4989703
+          ],
+          [
+            34.4636538,
+            31.4995747
+          ],
+          [
+            34.463891,
+            31.4997281
+          ],
+          [
+            34.4638935,
+            31.4997297
+          ],
+          [
+            34.4639511,
+            31.4997739
+          ],
+          [
+            34.4640454,
+            31.4998462
+          ],
+          [
+            34.4647503,
+            31.5003172
+          ],
+          [
+            34.465361,
+            31.500693
+          ],
+          [
+            34.4656869,
+            31.5008814
+          ],
+          [
+            34.4660626,
+            31.5011196
+          ],
+          [
+            34.4665578,
+            31.5014203
+          ],
+          [
+            34.4669721,
+            31.5016879
+          ],
+          [
+            34.4673439,
+            31.5019774
+          ],
+          [
+            34.4674172,
+            31.5020334
+          ],
+          [
+            34.4677314,
+            31.5023206
+          ],
+          [
+            34.4678361,
+            31.5024094
+          ],
+          [
+            34.4679224,
+            31.5024927
+          ],
+          [
+            34.4684794,
+            31.5030389
+          ],
+          [
+            34.4687227,
+            31.5033192
+          ],
+          [
+            34.4691859,
+            31.5039381
+          ],
+          [
+            34.4696667,
+            31.5047682
+          ],
+          [
+            34.4698586,
+            31.5051145
+          ],
+          [
+            34.4700784,
+            31.505486
+          ],
+          [
+            34.4703035,
+            31.5058891
+          ],
+          [
+            34.4708956,
+            31.5067176
+          ],
+          [
+            34.4710426,
+            31.5068858
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-001",
+        "featureType": "route",
+        "status": "primary",
+        "name": "Salah al-Din Street (main corridor)",
+        "routeIdentifier": "RT-01",
+        "isSynthetic": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.4618936,
+            31.5057423
+          ],
+          [
+            34.4619842,
+            31.5057023
+          ],
+          [
+            34.4626235,
+            31.5051424
+          ],
+          [
+            34.4629286,
+            31.504885
+          ],
+          [
+            34.4633864,
+            31.5044907
+          ],
+          [
+            34.463999,
+            31.503971
+          ],
+          [
+            34.4647806,
+            31.5033271
+          ],
+          [
+            34.465263,
+            31.5029329
+          ],
+          [
+            34.4654904,
+            31.5027345
+          ],
+          [
+            34.4662705,
+            31.5020862
+          ],
+          [
+            34.4663563,
+            31.5021208
+          ],
+          [
+            34.4664009,
+            31.5021322
+          ],
+          [
+            34.4664472,
+            31.5021394
+          ],
+          [
+            34.4664998,
+            31.5021451
+          ],
+          [
+            34.4665498,
+            31.5021522
+          ],
+          [
+            34.4665964,
+            31.5021589
+          ],
+          [
+            34.4666668,
+            31.5021674
+          ],
+          [
+            34.4667233,
+            31.5021826
+          ],
+          [
+            34.4668287,
+            31.5021905
+          ]
+        ]
+      },
+      "properties": {
+        "id": "route-002",
+        "featureType": "route",
+        "status": "restricted",
+        "name": "Omar al-Mukhtar Street (restricted segment)",
+        "routeIdentifier": "RT-02",
+        "isSynthetic": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468,
+          31.502
+        ]
+      },
+      "properties": {
+        "id": "evidence-001",
+        "featureType": "evidence_point",
+        "status": "recorded",
+        "name": "Direct evidence — northern block",
+        "evidenceType": "direct_evidence",
+        "responsibleOrganization": "Demo Survey Team",
+        "confidence": 0.8,
+        "isSynthetic": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.464,
+          31.501
+        ]
+      },
+      "properties": {
+        "id": "evidence-002",
+        "featureType": "evidence_point",
+        "status": "recorded",
+        "name": "Victim report",
+        "evidenceType": "victim_report",
+        "responsibleOrganization": "Demo Survey Team",
+        "confidence": 0.5,
+        "isSynthetic": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.471,
+          31.503
+        ]
+      },
+      "properties": {
+        "id": "evidence-003",
+        "featureType": "evidence_point",
+        "status": "recorded",
+        "name": "Technical survey finding",
+        "evidenceType": "technical_survey_finding",
+        "responsibleOrganization": "Demo Clearance Org",
+        "confidence": 0.95,
+        "isSynthetic": true
+      }
+    }
+  ]
+}
