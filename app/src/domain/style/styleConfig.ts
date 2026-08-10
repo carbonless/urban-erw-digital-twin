@@ -235,5 +235,33 @@ export const DEFAULT_STYLE_CONFIG: StyleConfig = {
       shape: 'star',
       label: 'Building',
     },
+    // UNOSAT satellite-derived damage assessment grades (real, non-synthetic source)
+    destroyed: {
+      fillColor: '#4A0000',
+      strokeColor: '#2A0000',
+      strokeWidth: 2,
+      opacity: 0.95,
+      icon: 'damage-destroyed',
+      shape: 'triangle',
+      label: 'Destroyed (UNOSAT)',
+    },
+    severe_damage: {
+      fillColor: '#B22222',
+      strokeColor: '#7A1717',
+      strokeWidth: 2,
+      opacity: 0.9,
+      icon: 'damage-severe',
+      shape: 'triangle',
+      label: 'Severe Damage (UNOSAT)',
+    },
+    moderate_damage: {
+      fillColor: '#E08A2E',
+      strokeColor: '#A5621C',
+      strokeWidth: 2,
+      opacity: 0.85,
+      icon: 'damage-moderate',
+      shape: 'triangle',
+      label: 'Moderate Damage (UNOSAT)',
+    },
   },
 };
