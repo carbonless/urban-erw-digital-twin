@@ -6,109 +6,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.45978333500005,
-          31.49971041500004
+          34.466521244000035,
+          31.501776747000065
         ]
       },
       "properties": {
-        "id": "unosat-ID_00402",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00402",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00402",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.45972207900007,
-          31.49989103200005
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00406",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00406",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00406",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.45981133300006,
-          31.49945089100004
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00403",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00403",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00403",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.45950762600006,
-          31.49983248900008
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00401",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00401",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00401",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.45956404500004,
-          31.49956959100007
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00400",
+        "id": "unosat-comp-0000",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "destroyed",
-        "name": "Destroyed \u2014 UNOSAT ID_00400",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00400",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -116,21 +26,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.45950882100004,
-          31.49945129200006
+          34.467310067000085,
+          31.501677451000035
         ]
       },
       "properties": {
-        "id": "unosat-ID_00405",
+        "id": "unosat-comp-0001",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00405",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00405",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -138,21 +46,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.45934726600007,
-          31.49959036100006
+          34.46674742700009,
+          31.50230620600007
         ]
       },
       "properties": {
-        "id": "unosat-ID_00404",
+        "id": "unosat-comp-0002",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00404",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00404",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -160,21 +66,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.46210580300004,
-          31.49552467700005
+          34.46656039700008,
+          31.501127349000058
         ]
       },
       "properties": {
-        "id": "unosat-ID_01711",
+        "id": "unosat-comp-0003",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "destroyed",
-        "name": "Destroyed \u2014 UNOSAT ID_01711",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_01711",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -182,21 +86,99 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.45920298100009,
-          31.49969568800009
+          34.46652977200006,
+          31.50228263100007
         ]
       },
       "properties": {
-        "id": "unosat-ID_00407",
+        "id": "unosat-comp-0004",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46684141500009,
+          31.502352289000044
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0005",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46615049300004,
+          31.501779017000047
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0006",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46737692000005,
+          31.501341774000082
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0007",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46731898000007,
+          31.50124194400007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0008",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00407",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00407",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -204,21 +186,399 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47401408400009,
-          31.49850554600005
+          34.46747328500004,
+          31.501907645000074
         ]
       },
       "properties": {
-        "id": "unosat-ID_01228",
+        "id": "unosat-comp-0009",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46698897600004,
+          31.502388402000065
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0010",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46664354100005,
+          31.502397226000085
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0011",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466127062000055,
+          31.501959012000043
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0012",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46648476300004,
+          31.502367138000068
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0013",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467511613000056,
+          31.501500080000085
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0014",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46605098500004,
+          31.50159306000006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0015",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466041327000084,
+          31.501729070000067
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0016",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46757635500006,
+          31.501907472000084
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0017",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46698941500006,
+          31.50090936400005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0018",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46762037500008,
+          31.50167039100006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0019",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46758111400004,
+          31.501404044000083
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0020",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46658705100009,
+          31.502514886000085
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0021",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467634038000085,
+          31.501578057000074
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0022",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46758168200006,
+          31.502024030000086
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0023",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46593682100007,
+          31.501709804000086
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0024",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466056087000084,
+          31.502165379000076
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0025",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46760692700008,
+          31.501347472000077
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0026",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46765305300005,
+          31.501968657000077
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0027",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46735072200005,
+          31.500976781000077
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0028",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "destroyed",
-        "name": "Destroyed \u2014 UNOSAT ID_01228",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_01228",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -226,21 +586,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.45869096800004,
-          31.50201912000006
+          34.46770653700008,
+          31.50162492600009
         ]
       },
       "properties": {
-        "id": "unosat-ID_00398",
+        "id": "unosat-comp-0029",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465911858000084,
+          31.501907378000055
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0030",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00398",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00398",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -248,21 +626,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.45845220900009,
-          31.50222920600004
+          34.46668445700004,
+          31.50260845200006
         ]
       },
       "properties": {
-        "id": "unosat-ID_00397",
+        "id": "unosat-comp-0031",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_00397",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00397",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -270,21 +646,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.46164576100006,
-          31.50839631800005
+          34.467635699000084,
+          31.502076525000064
         ]
       },
       "properties": {
-        "id": "unosat-ID_00171",
+        "id": "unosat-comp-0032",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465920639000046,
+          31.501435146000063
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0033",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00171",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00171",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -292,21 +686,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.45831124100005,
-          31.50231924700006
+          34.46597200600007,
+          31.502107890000048
         ]
       },
       "properties": {
-        "id": "unosat-ID_00399",
+        "id": "unosat-comp-0034",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00399",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00399",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -314,21 +706,119 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.46142931700007,
-          31.50830833500004
+          34.46760099000005,
+          31.50119595400008
         ]
       },
       "properties": {
-        "id": "unosat-ID_00168",
+        "id": "unosat-comp-0035",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46767262700007,
+          31.501318430000083
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0036",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46774171000004,
+          31.50152300600007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0037",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46770625800008,
+          31.502021782000043
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0038",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466781583000056,
+          31.500729155000045
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0039",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46779061400008,
+          31.50174941000006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0040",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "destroyed",
-        "name": "Destroyed \u2014 UNOSAT ID_00168",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00168",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -336,21 +826,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.46125723600005,
-          31.50818131600005
+          34.46581228400004,
+          31.50180746700005
         ]
       },
       "properties": {
-        "id": "unosat-ID_00174",
+        "id": "unosat-comp-0041",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
-        "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_00174",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00174",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -358,21 +846,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.46155156200007,
-          31.50849957700007
+          34.46768280900005,
+          31.501243076000037
         ]
       },
       "properties": {
-        "id": "unosat-ID_00172",
+        "id": "unosat-comp-0042",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00172",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00172",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -380,21 +866,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.46112052500007,
-          31.50831688700003
+          34.46594317800009,
+          31.502244130000065
         ]
       },
       "properties": {
-        "id": "unosat-ID_00175",
+        "id": "unosat-comp-0043",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00175",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00175",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -402,65 +886,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.46121782500006,
-          31.50841293300005
+          34.465827853000064,
+          31.50202012300008
         ]
       },
       "properties": {
-        "id": "unosat-ID_00169",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_00169",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00169",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.46131504800007,
-          31.50850395400005
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00170",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_00170",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00170",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.46144016000005,
-          31.50862815900007
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00173",
+        "id": "unosat-comp-0044",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00173",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00173",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -468,21 +906,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47000703400005,
-          31.51117468200005
+          34.46774287000005,
+          31.502101357000072
         ]
       },
       "properties": {
-        "id": "unosat-ID_00196",
+        "id": "unosat-comp-0045",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00196",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00196",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -490,21 +926,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.46986800500008,
-          31.51135317200004
+          34.46782739100007,
+          31.501495293000062
         ]
       },
       "properties": {
-        "id": "unosat-ID_00194",
+        "id": "unosat-comp-0046",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
-        "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_00194",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00194",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -512,43 +946,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47021665000005,
-          31.51124195800008
+          34.46579805400006,
+          31.501355758000045
         ]
       },
       "properties": {
-        "id": "unosat-ID_00195",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_00195",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00195",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47039349000005,
-          31.51134713300007
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00198",
+        "id": "unosat-comp-0047",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00198",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00198",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -556,21 +966,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47008797700005,
-          31.51154897800006
+          34.46786084800004,
+          31.501565329000073
         ]
       },
       "properties": {
-        "id": "unosat-ID_00193",
+        "id": "unosat-comp-0048",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
-        "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_00193",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00193",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -578,21 +986,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47027469900007,
-          31.51148608100004
+          34.467785270000036,
+          31.501272421000067
         ]
       },
       "properties": {
-        "id": "unosat-ID_00197",
+        "id": "unosat-comp-0049",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00197",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00197",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -600,20 +1006,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47633184500006,
-          31.50813264600004
+          34.46651958600006,
+          31.500662978000037
         ]
       },
       "properties": {
-        "id": "unosat-ID_01612",
+        "id": "unosat-comp-0050",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46784524700007,
+          31.501407104000066
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0051",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01612",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01612",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -621,20 +1046,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47649316500008,
-          31.50800499800005
+          34.46621249300006,
+          31.502619991000074
         ]
       },
       "properties": {
-        "id": "unosat-ID_01611",
+        "id": "unosat-comp-0052",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01611",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01611",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -642,273 +1066,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47643946000005,
-          31.50824570100008
+          34.46571599100008,
+          31.501557843000057
         ]
       },
       "properties": {
-        "id": "unosat-ID_01609",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_01609",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01609",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47668450200007,
-          31.50826594500006
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01610",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_01610",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01610",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47930473100007,
-          31.50077587100009
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01654",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01654",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01654",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47937894400008,
-          31.50085291900007
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01653",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01653",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01653",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47945503500006,
-          31.50093120400004
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01652",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01652",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01652",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47973943500006,
-          31.50017172300005
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01648",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01648",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01648",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47993068600005,
-          31.50004182600009
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01647",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01647",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01647",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47995852400004,
-          31.49991429900007
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01649",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01649",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01649",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.48007677300006,
-          31.50002548000009
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01646",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01646",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01646",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.48016731400008,
-          31.50018750000004
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01650",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01650",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01650",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.48017000500005,
-          31.49989497700005
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01645",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01645",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01645",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.48024192600008,
-          31.50006776000004
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01651",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01651",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01651",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47219397900005,
-          31.48912556000005
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01230",
+        "id": "unosat-comp-0053",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "destroyed",
-        "name": "Destroyed \u2014 UNOSAT ID_01230",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_01230",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -916,21 +1086,679 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47201596300005,
-          31.48897494200008
+          34.46779023400006,
+          31.502176234000046
         ]
       },
       "properties": {
-        "id": "unosat-ID_01229",
+        "id": "unosat-comp-0054",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465723945000036,
+          31.50193592800008
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0055",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46569915400005,
+          31.50178178200008
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0056",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46789982200005,
+          31.501829156000042
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0057",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466022158000044,
+          31.50248971700006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0058",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46770139700004,
+          31.501051182000083
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0059",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46577416900004,
+          31.502136207000035
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0060",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46740122500006,
+          31.50074956900005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0061",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46779679400004,
+          31.501156060000085
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0062",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46791286700005,
+          31.501429853000047
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0063",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466854527000066,
+          31.50055304300008
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0064",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46794703200004,
+          31.501638288000038
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0065",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46782979900007,
+          31.50222602200006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0066",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46562281100006,
+          31.50173600100004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0067",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465759921000085,
+          31.50226968000004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0068",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467874134000056,
+          31.501190574000077
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0069",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46708064400008,
+          31.502857730000073
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0070",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46796912500008,
+          31.501468818000035
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0071",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467896874000076,
+          31.502176802000065
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0072",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465616487000034,
+          31.501874781000083
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0073",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46571242200008,
+          31.501200879000066
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0074",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467615908000084,
+          31.500816179000083
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0075",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46681784200007,
+          31.502904191000084
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0076",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46694056200005,
+          31.500500053000053
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0077",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46558943000008,
+          31.50179570100005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0078",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46762733700007,
+          31.500797700000078
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0079",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46658413800009,
+          31.500492241000075
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0080",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46786273500004,
+          31.501061980000088
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0081",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46648989500005,
+          31.50290351600006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0082",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46561175800008,
+          31.501333023000086
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0083",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466994997000086,
+          31.50293799800005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0084",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46793092300004,
+          31.501127136000036
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0085",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46778208900008,
+          31.500888934000045
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0086",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46552470900008,
+          31.501697016000037
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0087",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "destroyed",
-        "name": "Destroyed \u2014 UNOSAT ID_01229",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_01229",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -938,21 +1766,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.45296934400005,
-          31.50372483600006
+          34.46655799200005,
+          31.502969017000055
         ]
       },
       "properties": {
-        "id": "unosat-ID_00413",
+        "id": "unosat-comp-0088",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00413",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00413",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -960,87 +1786,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.45280647200008,
-          31.50354981600009
+          34.46801257800007,
+          31.501249293000058
         ]
       },
       "properties": {
-        "id": "unosat-ID_00411",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00411",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00411",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.45280763000005,
-          31.50385475000007
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00410",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_00410",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00410",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.45270148200007,
-          31.50343512900008
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00412",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00412",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00412",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.45263299800007,
-          31.50360972600004
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00408",
+        "id": "unosat-comp-0089",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "destroyed",
-        "name": "Destroyed \u2014 UNOSAT ID_00408",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00408",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -1048,21 +1806,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.45264919100003,
-          31.50396633000008
+          34.46588701300004,
+          31.50261704600007
         ]
       },
       "properties": {
-        "id": "unosat-ID_00414",
+        "id": "unosat-comp-0090",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00414",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00414",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -1070,65 +1826,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47836770900005,
-          31.51032745800006
+          34.46552675700008,
+          31.501463908000062
         ]
       },
       "properties": {
-        "id": "unosat-ID_01058",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01058",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_01058",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.45246334000007,
-          31.50345612900009
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00415",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_00415",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00415",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.45247394600005,
-          31.50368166900006
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00409",
+        "id": "unosat-comp-0091",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_00409",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00409",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -1136,21 +1846,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47324656300009,
-          31.48871585400008
+          34.46757453200007,
+          31.50065975700005
         ]
       },
       "properties": {
-        "id": "unosat-ID_01270",
+        "id": "unosat-comp-0092",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01270",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_01270",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -1158,21 +1866,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47857639900008,
-          31.51022805200006
+          34.46809262900007,
+          31.50181821800004
         ]
       },
       "properties": {
-        "id": "unosat-ID_01057",
+        "id": "unosat-comp-0093",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01057",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_01057",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -1180,20 +1886,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.48149007700005,
-          31.50178550100009
+          34.468096219000074,
+          31.50153652700004
         ]
       },
       "properties": {
-        "id": "unosat-ID_01614",
+        "id": "unosat-comp-0094",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46684934800004,
+          31.500391668000077
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0095",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01614",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01614",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     },
     {
@@ -1201,108 +1926,3079 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.47820907100004,
-          31.51097764500008
+          34.46747289700005,
+          31.500575290000086
         ]
       },
       "properties": {
-        "id": "unosat-ID_01556",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01556",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.5,
-        "sourceIdentifier": "ID_01556",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47435126500005,
-          31.48908076200007
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01066",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "moderate_damage",
-        "name": "Moderate Damage \u2014 UNOSAT ID_01066",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.6,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_01066",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47424972100004,
-          31.48899644900007
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01220",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_01220",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_01220",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.47413407100004,
-          31.48889665900009
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_01221",
-        "featureType": "critical_infrastructure",
-        "infrastructureType": "building_damage_assessment",
-        "status": "severe_damage",
-        "name": "Severe Damage \u2014 UNOSAT ID_01221",
-        "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_01221",
-        "isSynthetic": false
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.45354254100005,
-          31.50833483700006
-        ]
-      },
-      "properties": {
-        "id": "unosat-ID_00227",
+        "id": "unosat-comp-0096",
         "featureType": "critical_infrastructure",
         "infrastructureType": "building_damage_assessment",
         "status": "destroyed",
-        "name": "Destroyed \u2014 UNOSAT ID_00227",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
         "responsibleOrganization": "UNOSAT (UNITAR)",
-        "confidence": 0.95,
-        "validFrom": "2023-10-10",
-        "sourceIdentifier": "ID_00227",
-        "isSynthetic": false
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46739119000006,
+          31.50287871100005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0097",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468074570000056,
+          31.501360206000072
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0098",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467930282000054,
+          31.500978071000077
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0099",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46689952600008,
+          31.50304326400004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0100",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46812083300006,
+          31.50199871400008
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0101",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46555840800005,
+          31.501156414000036
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0102",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46814758000005,
+          31.501901074000045
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0103",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465492064000046,
+          31.501317345000075
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0104",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465465090000066,
+          31.501989193000043
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0105",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46782217100008,
+          31.500787836000086
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0106",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465430627000046,
+          31.501789796000082
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0107",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46629791000004,
+          31.500420894000058
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0108",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467660339000076,
+          31.50060129600007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0109",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46819693900005,
+          31.50165148700006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0110",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465411534000054,
+          31.50194769500007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0111",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46640083900007,
+          31.503054556000052
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0112",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468216933000065,
+          31.501760003000072
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0113",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46811371000007,
+          31.501165487000037
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0114",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466415863000066,
+          31.50032761700004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0115",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46799507700007,
+          31.500918329000058
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0116",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465432511000074,
+          31.50211904400004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0117",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46562341100008,
+          31.50251877900007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0118",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466662743000086,
+          31.50026782000009
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0119",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467304185000046,
+          31.50305503000004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0120",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465355257000056,
+          31.501527518000046
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0121",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468093829000054,
+          31.501027819000058
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0122",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46824247100005,
+          31.501919305000058
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0123",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468235323000044,
+          31.501424694000036
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0124",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46538171900005,
+          31.501341636000063
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0125",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46710446700007,
+          31.503132864000065
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0126",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46692582500009,
+          31.500239673000067
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0127",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46573319200007,
+          31.50270623600005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0128",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46765025800005,
+          31.500501867000082
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0129",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46783038400008,
+          31.500644141000066
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0130",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468214931000034,
+          31.50127049200006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0131",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46828222900007,
+          31.501606718000062
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0132",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465760928000066,
+          31.50063597700006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0133",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468177489000084,
+          31.501120007000054
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0134",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46544229400007,
+          31.501073046000045
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0135",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465294474000075,
+          31.501609742000085
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0136",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468126564000045,
+          31.502443209000035
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0137",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46613935700009,
+          31.50307556000007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0138",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465339146000076,
+          31.502170095000054
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0139",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46675769500007,
+          31.500155388000053
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0140",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46545909000008,
+          31.50247721100004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0141",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465249423000046,
+          31.501731230000075
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0142",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46526311900004,
+          31.501940755000078
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0143",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46588266700007,
+          31.50044358100007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0144",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46803042700009,
+          31.50074733100007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0145",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46836572600006,
+          31.50164978500004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0146",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466491878000056,
+          31.500163614000087
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0147",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467548718000046,
+          31.500315147000038
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0148",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46594053800004,
+          31.50302786900005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0149",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46565296500006,
+          31.502791931000047
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0150",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46525446700008,
+          31.501352901000075
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0151",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467410201000064,
+          31.500235890000056
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0152",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46521056800009,
+          31.501791240000045
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0153",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46815315100008,
+          31.50254834100008
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0154",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46702802900006,
+          31.500113174000035
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0155",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46615745400004,
+          31.50022959200004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0156",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46791472600006,
+          31.500537571000052
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0157",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467748320000055,
+          31.50039385300005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0158",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46834844600005,
+          31.502160595000078
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0159",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468401500000084,
+          31.501487196000085
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0160",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46536510300007,
+          31.50095137900007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0161",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46841413700008,
+          31.501844890000086
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0162",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46821323100005,
+          31.50089956800008
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0163",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46832744200009,
+          31.50114138500004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0164",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46733246600007,
+          31.50323708700006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0165",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46723730100007,
+          31.50013049800009
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0166",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46692072700006,
+          31.503331262000074
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0167",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46838777000005,
+          31.501298381000083
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0168",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46828998400008,
+          31.50101133700008
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0169",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46515833400008,
+          31.501679850000073
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0170",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46586907600005,
+          31.500341459000083
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0171",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46519162700008,
+          31.502098062000073
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0172",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46522970700005,
+          31.502241508000054
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0173",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46655367300008,
+          31.500056741000037
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0174",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466873716000066,
+          31.500037536000036
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0175",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46513996900006,
+          31.50184356300008
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0176",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46847157500008,
+          31.501781986000083
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0177",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46516709800005,
+          31.501316900000063
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0178",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46524142200008,
+          31.501078090000078
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0179",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46845137100007,
+          31.502063295000085
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0180",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46650306400005,
+          31.503366569000036
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0181",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468097843000066,
+          31.500605694000058
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0182",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46580821800006,
+          31.503083700000047
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0183",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468241343000045,
+          31.50260927000005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0184",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465733568000076,
+          31.500363750000076
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0185",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466227709000066,
+          31.500083781000058
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0186",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468182150000075,
+          31.500683481000067
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0187",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468507437000085,
+          31.501429226000084
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0188",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46519114100005,
+          31.502337529000044
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0189",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46751360600007,
+          31.500122868000062
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0190",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467600994000065,
+          31.500163844000042
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0191",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46842004800004,
+          31.501074887000073
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0192",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46526416100005,
+          31.500882322000052
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0193",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46798683800006,
+          31.50041794200007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0194",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465062483000054,
+          31.501894588000084
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0195",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46666679500004,
+          31.49994669000006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0196",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46745499900004,
+          31.500062805000084
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0197",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46719593500006,
+          31.49997765100005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0198",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46632600600009,
+          31.499992026000086
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0199",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46829637500008,
+          31.500744118000057
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0200",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46504278100008,
+          31.50144404200006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0201",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468579790000035,
+          31.501689068000076
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0202",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46708898500009,
+          31.499941596000042
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0203",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465526674000046,
+          31.50295903600005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0204",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46842186300006,
+          31.500937056000055
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0205",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46782637000007,
+          31.50022879000005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0206",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467314645000044,
+          31.499981424000055
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0207",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46515244100004,
+          31.500975898000036
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0208",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46527633100004,
+          31.50265950000005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0209",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46830112500004,
+          31.502697475000048
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0210",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46583590900008,
+          31.50322466700004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0211",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465008623000074,
+          31.501966546000062
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0212",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468534817000034,
+          31.501156406000064
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0213",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46837684400003,
+          31.50079500700008
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0214",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46497859900006,
+          31.501707040000042
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0215",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46604258500008,
+          31.500034114000073
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0216",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46541110800007,
+          31.500508276000062
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0217",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465999675000035,
+          31.503348289000087
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0218",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46504844600008,
+          31.502250709000066
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0219",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.464964406000036,
+          31.501830184000085
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0220",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46755525800006,
+          31.500021231000062
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0221",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465661311000076,
+          31.503147161000072
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0222",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468627419000086,
+          31.501941956000053
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0223",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.465891432000035,
+          31.50009501100004
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0224",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46864387200009,
+          31.501553354000066
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0225",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468461552000065,
+          31.500885950000054
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0226",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.467006937000065,
+          31.49985993000007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0227",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46497220400005,
+          31.502035163000073
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0228",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466893697000046,
+          31.50356107500005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0229",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46503772600005,
+          31.50109051600009
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0230",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46713797400008,
+          31.499862717000042
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0231",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468624667000086,
+          31.50128347000009
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0232",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46819586400005,
+          31.50044216300006
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0233",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46866547900004,
+          31.50141620900007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0234",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466882285000054,
+          31.49981216100008
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0235",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46836611800006,
+          31.50275903000005
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0236",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466465594000056,
+          31.499835063000035
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0237",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46856042700006,
+          31.500974720000045
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0238",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46523777800007,
+          31.502794813000037
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0239",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46614333800005,
+          31.499906080000073
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0240",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468049602000065,
+          31.500249327000063
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0241",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "severe_damage",
+        "name": "Severe Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468454052000084,
+          31.502691325000058
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0242",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46509417300007,
+          31.500793048000048
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0243",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.466100193000045,
+          31.50350433300008
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0244",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46507034400008,
+          31.502578030000052
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0245",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "moderate_damage",
+        "name": "Moderate Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46676963900006,
+          31.499759075000043
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0246",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "destroyed",
+        "name": "Destroyed \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46485484600004,
+          31.501615233000052
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0247",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.468261365000046,
+          31.500412254000082
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0248",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.46499869200005,
+          31.50244113100007
+        ]
+      },
+      "properties": {
+        "id": "unosat-comp-0249",
+        "featureType": "critical_infrastructure",
+        "infrastructureType": "building_damage_assessment",
+        "status": "possible_damage",
+        "name": "Possible Damage \u2014 UNOSAT (comprehensive Apr 2025)",
+        "responsibleOrganization": "UNOSAT (UNITAR)",
+        "isSynthetic": false,
+        "validFrom": "2025-04-04"
       }
     }
   ]

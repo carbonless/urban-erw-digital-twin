@@ -263,5 +263,14 @@ export const DEFAULT_STYLE_CONFIG: StyleConfig = {
       shape: 'triangle',
       label: 'Moderate Damage (UNOSAT)',
     },
+    possible_damage: {
+      fillColor: '#E8C547',
+      strokeColor: '#B89A2E',
+      strokeWidth: 2,
+      opacity: 0.75,
+      icon: 'damage-possible',
+      shape: 'triangle',
+      label: 'Possible Damage (UNOSAT)',
+    },
   },
 };

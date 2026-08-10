@@ -51,8 +51,12 @@ function SceneContent() {
           sourceClassification: 'category_a_synthetic',
         });
         // Real UNOSAT satellite damage assessment — Category A (public), not synthetic.
+        // Comprehensive Gaza Strip assessment (04 April 2025), using each site's
+        // LATEST classification across up to 12 reassessment passes (Nov 2023 –
+        // Apr 2025) rather than the stale baseline field — see report for why
+        // that distinction matters (baseline undercounts damage severely).
         const unosatResult = loadGeoJson(unosatData, {
-          sourceId: 'unosat-gaza-governorate-damage-assessment',
+          sourceId: 'unosat-gaza-strip-comprehensive-damage-assessment-04apr2025',
           sourceClassification: 'category_a_public',
         });
         const allFeatures = [...demoResult.features, ...unosatResult.features];
