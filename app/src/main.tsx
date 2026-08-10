@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom/client';
-import { Viewer, Cesium3DTileset, CameraFlyTo, useCesium } from 'resium';
+import { Viewer, Cesium3DTileset, CameraFlyTo, Entity, ModelGraphics, useCesium } from 'resium';
 import {
   Ion,
   IonResource,
@@ -8,6 +8,7 @@ import {
   Math as CesiumMath,
   createWorldTerrainAsync,
   createGooglePhotorealistic3DTileset,
+  HeightReference,
   type TerrainProvider,
   type Cesium3DTileset as Cesium3DTilesetType,
 } from 'cesium';
@@ -214,12 +215,49 @@ function CameraControls({ target }: { target: { longitude: number; latitude: num
   const NYC_FINANCIAL_DISTRICT = { longitude: -74.0113, latitude: 40.7074 };
   const flyToNycBaseline = () => flyOblique(NYC_FINANCIAL_DISTRICT);
 
+  const flyToDestructionDemo = () => {
+    if (!viewer) return;
+    viewer.camera.flyTo({
+      destination: Cartesian3.fromDegrees(
+        DESTRUCTION_DEMO_LOCATION.longitude,
+        DESTRUCTION_DEMO_LOCATION.latitude - 0.0009,
+        120,
+      ),
+      orientation: { heading: CesiumMath.toRadians(0), pitch: CesiumMath.toRadians(-25), roll: 0 },
+      duration: 2,
+    });
+  };
+
   return (
     <div style={{ position: 'absolute', top: 12, right: 12, zIndex: 1000, display: 'flex', gap: 6 }}>
       <button style={buttonStyle} onClick={flyTopDown}>Top-down</button>
       <button style={buttonStyle} onClick={() => flyOblique()}>Oblique view</button>
       <button style={buttonStyle} onClick={flyToNycBaseline}>NYC (coverage baseline)</button>
+      <button style={buttonStyle} onClick={flyToDestructionDemo}>Destruction demo (synthetic)</button>
     </div>
+  );
+}
+
+// A generic, fictional structure — deliberately NOT the Gaza demo coordinates,
+// so it's never confused with the real UNOSAT/hazard data on screen at the
+// same time. This exists purely to demonstrate the capability (procedurally
+// fractured + physics-simulated "before/after" via Blender, exported as glTF)
+// on something with no relationship to any real place or event.
+const DESTRUCTION_DEMO_LOCATION = { longitude: 34.4668, latitude: 31.53 }; // ~3km north of the Gaza demo cluster, isolated on its own
+
+function DestructionDemo({ showAfter }: { showAfter: boolean }) {
+  const position = Cartesian3.fromDegrees(
+    DESTRUCTION_DEMO_LOCATION.longitude,
+    DESTRUCTION_DEMO_LOCATION.latitude,
+  );
+  return (
+    <Entity position={position} name="Generic building (synthetic capability demo)">
+      <ModelGraphics
+        uri={showAfter ? '/models/generic-building-after.glb' : '/models/generic-building-before.glb'}
+        heightReference={HeightReference.CLAMP_TO_GROUND}
+        scale={1}
+      />
+    </Entity>
   );
 }
 
@@ -248,10 +286,14 @@ function ControlPanel({
   useGoogleTiles,
   setUseGoogleTiles,
   googleTilesStatus,
+  showDestructionAfter,
+  setShowDestructionAfter,
 }: {
   useGoogleTiles: boolean;
   setUseGoogleTiles: (v: boolean) => void;
   googleTilesStatus: GoogleTilesStatus;
+  showDestructionAfter: boolean;
+  setShowDestructionAfter: (v: boolean) => void;
 }) {
   const layerVisibility = useAppStore((s) => s.layerVisibility);
   const toggleLayer = useAppStore((s) => s.toggleLayer);
@@ -300,6 +342,23 @@ function ControlPanel({
         </label>
         <GoogleStatusLine status={googleTilesStatus} />
       </div>
+
+      <div style={{ borderTop: '1px solid rgba(255,255,255,0.2)', marginTop: 8, paddingTop: 8 }}>
+        <div style={{ fontWeight: 700, marginBottom: 2, letterSpacing: '0.04em', textTransform: 'uppercase', fontSize: 11 }}>
+          Destruction Demo
+        </div>
+        <div style={{ fontSize: 10, color: '#e0a72e', marginBottom: 4 }}>
+          SYNTHETIC — generic structure, not a real location
+        </div>
+        <label style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '3px 0', cursor: 'pointer' }}>
+          <input
+            type="checkbox"
+            checked={showDestructionAfter}
+            onChange={(e) => setShowDestructionAfter(e.target.checked)}
+          />
+          Show "after" (fractured + simulated collapse)
+        </label>
+      </div>
     </div>
   );
 }
@@ -310,6 +369,7 @@ function App() {
   const [terrainProvider, setTerrainProvider] = useState<TerrainProvider | null>(null);
   const [useGoogleTiles, setUseGoogleTiles] = useState(false);
   const [googleTilesStatus, setGoogleTilesStatus] = useState<GoogleTilesStatus>({ state: 'idle' });
+  const [showDestructionAfter, setShowDestructionAfter] = useState(false);
 
   useEffect(() => {
     loadConfig().then(async (result) => {
@@ -357,10 +417,13 @@ function App() {
       />
       <SceneContent />
       <GoogleTilesTest enabled={useGoogleTiles} onStatusChange={setGoogleTilesStatus} />
+      <DestructionDemo showAfter={showDestructionAfter} />
       <ControlPanel
         useGoogleTiles={useGoogleTiles}
         setUseGoogleTiles={setUseGoogleTiles}
         googleTilesStatus={googleTilesStatus}
+        showDestructionAfter={showDestructionAfter}
+        setShowDestructionAfter={setShowDestructionAfter}
       />
       <CameraControls target={{ longitude: cam.longitude, latitude: cam.latitude }} />
     </Viewer>
