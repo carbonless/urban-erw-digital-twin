@@ -251,6 +251,17 @@ function CameraControls({ target }: { target: { longitude: number; latitude: num
   const NOTRE_DAME = { longitude: 2.349902, latitude: 48.852966 };
   const flyToNotreDame = () => flyOblique(NOTRE_DAME);
 
+  // Beirut Port grain silos — unlike Notre-Dame (actively restored) or
+  // Antakya (coverage-status unknown), this is a still-damaged, unrebuilt
+  // destruction site in a major capital city, six years after the August
+  // 2020 explosion. Sections of the silos have continued collapsing as
+  // recently as 2026; reconstruction remains undecided. If Beirut has
+  // baseline coverage, this is the cleanest available test of whether
+  // Google's tiles reflect PERSISTENT, still-relevant damage rather than a
+  // temporary or already-resolved event.
+  const BEIRUT_PORT_SILOS = { longitude: 35.525, latitude: 33.90278 };
+  const flyToBeirutSilos = () => flyOblique(BEIRUT_PORT_SILOS);
+
   return (
     <div style={{ position: 'absolute', top: 12, right: 12, zIndex: 1000, display: 'flex', gap: 6, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
       <button style={buttonStyle} onClick={flyTopDown}>Top-down</button>
@@ -259,6 +270,7 @@ function CameraControls({ target }: { target: { longitude: number; latitude: num
       <button style={buttonStyle} onClick={flyToDestructionDemo}>Destruction demo (synthetic)</button>
       <button style={buttonStyle} onClick={flyToTurkeyQuakeSite}>Turkey quake site (real, Crisis Response test)</button>
       <button style={buttonStyle} onClick={flyToNotreDame}>Notre-Dame (refresh-cadence test)</button>
+      <button style={buttonStyle} onClick={flyToBeirutSilos}>Beirut port silos (persistent damage test)</button>
     </div>
   );
 }
