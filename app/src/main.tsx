@@ -238,6 +238,19 @@ function CameraControls({ target }: { target: { longitude: number; latitude: num
   const RONESANS_REZIDANS = { longitude: 36.150046, latitude: 36.230288 };
   const flyToTurkeyQuakeSite = () => flyOblique(RONESANS_REZIDANS);
 
+  // Notre-Dame de Paris — a cleaner test of Google's refresh cadence than the
+  // Antakya site: Paris is unambiguously one of the ~2,500 major cities with
+  // guaranteed Photorealistic 3D Tiles coverage (unlike Antakya, where an
+  // empty result can't be distinguished from "never had coverage at all"),
+  // and the April 2019 fire caused precisely-located, well-documented,
+  // completely apolitical structural damage (collapsed spire, burned roof
+  // frame) — with a full restoration completed and reopened December 2024.
+  // Whether the tiles show pre-fire, fire-damaged, or restored state is a
+  // real, isolated read on refresh cadence, not confounded by coverage
+  // existing at all.
+  const NOTRE_DAME = { longitude: 2.349902, latitude: 48.852966 };
+  const flyToNotreDame = () => flyOblique(NOTRE_DAME);
+
   return (
     <div style={{ position: 'absolute', top: 12, right: 12, zIndex: 1000, display: 'flex', gap: 6, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
       <button style={buttonStyle} onClick={flyTopDown}>Top-down</button>
@@ -245,6 +258,7 @@ function CameraControls({ target }: { target: { longitude: number; latitude: num
       <button style={buttonStyle} onClick={flyToNycBaseline}>NYC (coverage baseline)</button>
       <button style={buttonStyle} onClick={flyToDestructionDemo}>Destruction demo (synthetic)</button>
       <button style={buttonStyle} onClick={flyToTurkeyQuakeSite}>Turkey quake site (real, Crisis Response test)</button>
+      <button style={buttonStyle} onClick={flyToNotreDame}>Notre-Dame (refresh-cadence test)</button>
     </div>
   );
 }
