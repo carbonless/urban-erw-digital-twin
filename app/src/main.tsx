@@ -228,12 +228,23 @@ function CameraControls({ target }: { target: { longitude: number; latitude: num
     });
   };
 
+  // Rönesans Rezidans, Antakya/Hatay, Turkey — real coordinates of an 11-story
+  // residential tower that toppled in the 2023 Turkey-Syria earthquake
+  // (269 deaths), one of the most widely documented single-building
+  // collapses from that event. Used here to empirically test Google's
+  // Crisis Response earthquake-imagery claim against a specific, real,
+  // well-known post-disaster site — the same live-diagnostic approach used
+  // for the Gaza/NYC coverage comparison.
+  const RONESANS_REZIDANS = { longitude: 36.150046, latitude: 36.230288 };
+  const flyToTurkeyQuakeSite = () => flyOblique(RONESANS_REZIDANS);
+
   return (
-    <div style={{ position: 'absolute', top: 12, right: 12, zIndex: 1000, display: 'flex', gap: 6 }}>
+    <div style={{ position: 'absolute', top: 12, right: 12, zIndex: 1000, display: 'flex', gap: 6, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
       <button style={buttonStyle} onClick={flyTopDown}>Top-down</button>
       <button style={buttonStyle} onClick={() => flyOblique()}>Oblique view</button>
       <button style={buttonStyle} onClick={flyToNycBaseline}>NYC (coverage baseline)</button>
       <button style={buttonStyle} onClick={flyToDestructionDemo}>Destruction demo (synthetic)</button>
+      <button style={buttonStyle} onClick={flyToTurkeyQuakeSite}>Turkey quake site (real, Crisis Response test)</button>
     </div>
   );
 }
