@@ -20,6 +20,7 @@ import { useAppStore } from '@state/store';
 const OSM_BUILDINGS_ASSET_ID = 96188;
 const DEMO_DATA_URL = '/data/demo-scenario.geojson';
 const UNOSAT_DATA_URL = '/data/unosat-damage.geojson';
+const OSM_DAMAGE_DATA_URL = '/data/osm-damage.geojson';
 
 const LAYER_LABELS: Record<string, string> = {
   hazard_area: 'Hazard Areas',
@@ -43,8 +44,9 @@ function SceneContent() {
     Promise.all([
       fetch(DEMO_DATA_URL).then((res) => res.json()),
       fetch(UNOSAT_DATA_URL).then((res) => res.json()),
+      fetch(OSM_DAMAGE_DATA_URL).then((res) => res.json()),
     ])
-      .then(([demoData, unosatData]) => {
+      .then(([demoData, unosatData, osmDamageData]) => {
         if (cancelled) return;
         const demoResult = loadGeoJson(demoData, {
           sourceId: 'demo-scenario',
@@ -59,7 +61,14 @@ function SceneContent() {
           sourceId: 'unosat-gaza-strip-comprehensive-damage-assessment-04apr2025',
           sourceClassification: 'category_a_public',
         });
-        const allFeatures = [...demoResult.features, ...unosatResult.features];
+        // OSM structured damage tags (damage=destroyed/damaged) pulled via
+        // Overpass — Category A (public), independent crowd-sourced signal,
+        // not derived from or reconciled against the UNOSAT assessment above.
+        const osmDamageResult = loadGeoJson(osmDamageData, {
+          sourceId: 'osm-gaza-strip-damage-tags',
+          sourceClassification: 'category_a_public',
+        });
+        const allFeatures = [...demoResult.features, ...unosatResult.features, ...osmDamageResult.features];
         renderedRef.current = addFeaturesToViewer(allFeatures, { viewer });
         updateLayerVisibility(renderedRef.current, useAppStore.getState().layerVisibility);
       })

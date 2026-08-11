@@ -272,5 +272,27 @@ export const DEFAULT_STYLE_CONFIG: StyleConfig = {
       shape: 'triangle',
       label: 'Possible Damage (UNOSAT)',
     },
+    // OSM structured damage tags (damage=destroyed/damaged), independent
+    // crowd-sourced corroboration of the UNOSAT satellite assessment above —
+    // kept visually distinct (square vs. triangle) so overlap/gaps between
+    // the two sources are legible on screen.
+    osm_destroyed: {
+      fillColor: '#8B0000',
+      strokeColor: '#5C0000',
+      strokeWidth: 2,
+      opacity: 0.9,
+      icon: 'osm-damage-destroyed',
+      shape: 'square',
+      label: 'Destroyed (OSM)',
+    },
+    osm_damaged: {
+      fillColor: '#CD5C5C',
+      strokeColor: '#8F3F3F',
+      strokeWidth: 2,
+      opacity: 0.8,
+      icon: 'osm-damage-damaged',
+      shape: 'square',
+      label: 'Damaged (OSM)',
+    },
   },
 };
