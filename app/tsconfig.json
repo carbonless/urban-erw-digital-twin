@@ -24,15 +24,10 @@
     /* Path aliases */
     "baseUrl": ".",
     "paths": {
-      "@domain": ["src/domain"],
       "@domain/*": ["src/domain/*"],
-      "@adapters": ["src/adapters"],
       "@adapters/*": ["src/adapters/*"],
-      "@state": ["src/state"],
       "@state/*": ["src/state/*"],
-      "@components": ["src/components"],
       "@components/*": ["src/components/*"],
-      "@config": ["src/config"],
       "@config/*": ["src/config/*"]
     }
   },
