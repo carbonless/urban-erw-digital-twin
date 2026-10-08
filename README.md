@@ -24,6 +24,12 @@ The working group identified several related needs:
 
 Screenshots from this prototype were used as supporting visual material in the group's non-public working project brief.
 
+### Prototype screenshots
+
+![Urban ERW Digital Twin prototype](docs/images/Screenshot%202026-09-30%20081500.png)
+
+![Urban ERW Digital Twin prototype](docs/images/Screenshot%202026-09-30%20081816.png)
+
 **Important:** “HEIGHT MATTERS!” is the working-group brief title from the GICHD Innovation Session. It is not a VEA product name, and this repository should not be read as a GICHD-endorsed platform or official GICHD project.
 
 ## What the prototype demonstrates
